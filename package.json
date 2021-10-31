@@ -1,0 +1,28 @@
+{
+  "name": "server-deployment-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essamomar93/server-deployment-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essamomar93/server-deployment-practice/issues"
+  },
+  "homepage": "https://github.com/essamomar93/server-deployment-practice#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "superagent": "^6.1.0"
+  }
+}
